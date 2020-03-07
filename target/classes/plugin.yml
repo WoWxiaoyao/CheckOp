@@ -1,0 +1,13 @@
+name: CheckOp
+main: zbv5.cn.CheckOp.Main
+version: 1.0.0
+api: 1.0.0
+author: 逍遥
+commands:
+  CheckOp:
+    description: 默认指令
+    aliases: ["cop"]
+permissions:
+  CheckOp.admin:
+    description: 使用全部功能所需权限
+    default: op

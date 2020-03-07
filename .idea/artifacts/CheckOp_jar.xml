@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CheckOp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CheckOp_jar</output-path>
+    <root id="archive" name="CheckOp.jar">
+      <element id="module-output" name="CheckOp" />
+    </root>
+  </artifact>
+</component>

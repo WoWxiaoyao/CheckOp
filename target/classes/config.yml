@@ -1,0 +1,38 @@
+###############################################################
+#
+#          欢迎使用CheckOP
+#
+###############################################################
+
+#启用记录运行记录
+logs: true
+
+#检测列表
+CheckList:
+  #模式切换检测
+  CreativeMode:
+    Enable: true
+  #聊天
+  Chat:
+    Enable: true
+  #指令
+  Command:
+    #延迟判断 (防止部分操控正常插件被误判)
+    #填写0则为禁用延迟判断 请务必谨慎操作
+    Delay: 1
+    Enable: true
+  #玩家进入
+  Join:
+    Enable: true
+  #玩家退出
+  Quit:
+    Enable: true
+  #玩家建造
+  Build:
+    Enable: true
+  #玩家破坏
+  Break:
+    Enable: true
+
+#白名单 在此列表中的玩家不会被检测
+WhiteList: []
